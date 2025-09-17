@@ -99,3 +99,84 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     </td>
   </tr>
 </table>
+
+### User Story US03 - Manter Entrada de Produto
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US03</th>
+  </tr>
+  <tr>
+    <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Entrada de Produto</td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Identificação</strong></td>
+    <td style="padding:6px;">RF03 - Manter Entrada</td>
+  </tr> 
+  <tr> 
+    <td style="padding:6px;"><strong>Story</strong></td>
+    <td style="padding:6px;">
+      Como <em>proprietária da loja</em>, quero <em>realizar o cadastro e as operações de entrada de produto</em>, para <em>ter controle sobre o estoque, valores de custo e histórico de entradas</em>.
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong>RF02</td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>O sistema deve exibir mensagem de sucesso após cadastro correto.</li>
+        <li>O sistema deve validar campos obrigatórios e exibir mensagens de erro.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td style="padding:6px;"><strong>Testes de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>TA03.01 - Cadastro de entrada de produto bem sucedida com todos os dados válidos redireciona para uma mensagem de cadastro feito com sucesso.</li>
+        <li>TA03.02 - Cadastro com campo inválido (vazio, valor não aceito etc.) retorna mensagem de erro e não efetua o cadastro.</li>
+        <li>TA03.03 - Edição realizada com sucesso redireciona para uma mensagem de atualização concluída.</li>
+        <li>TA03.04 - Edição não realizada devido a dados inválidos redireciona para uma mensagem de erro.</li>
+        <li>TA03.05 - Consulta bem sucedida exibe os dados da entrada de produto.</li>
+        <li>TA03.06 - Consulta sem resultados retorna mensagem de entrada de produto não encontrada.</li>
+        <li>TA03.07 - Exclusão bem sucedida retorna mensagem de remoção feita com sucesso.</li>
+      </ul> 
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Estimativa</strong></td>
+    <td style="padding:6px;">5h</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tempo Real Gasto</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tamanho Funcional</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Prioridade</strong></td>
+    <td style="padding:6px;">Essencial</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Responsáveis</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li><strong>Analista:</strong> Felipe </li>
+        <li><strong>Desenvolvedor:</strong> Pedro Vitor </li>
+        <li><strong>Revisor:</strong> Elder </li>
+        <li><strong>Testador:</strong> Mosiah </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Protótipo</strong></td>
+    <td style="padding:6px;">
+    </td>
+  </tr>
+</table>
