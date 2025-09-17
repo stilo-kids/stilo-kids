@@ -20,11 +20,11 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 
 <table>
   <tr>
-    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US02</th>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US01</th>
   </tr>
   <tr>
-    <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Fornecedor</td>
-    <td style="padding:6px;">O sistema de manter um cadastro de fornecedores. Um fornecedor tem os atirbutos: id e name, além de ter relação com as tabelas de endereços e telefones. Ambas as relações são de 1:N (Um fornecedor tem vários endereços/telefones). A tabela de telefones tem os atributos: id, number, supplier_id. Já a tabela de endereços tem os atributos: id, city, street, neighborhood, number, supplier_id. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um fornecedor.</td>
+    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
+    <td style="padding:6px;">Manter Fornecedor</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -35,6 +35,10 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <td style="padding:6px;">
       Como <em>proprietária da loja</em>, quero <em>realizar as operações de manter um fornecedor</em>, para <em>ter um controle e histórico sobre os fornecedores da loja</em>.
     </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Descrição</strong></td>
+    <td style="padding:6px;">O sistema de manter um cadastro de fornecedores. Um fornecedor tem os atirbutos: id e name, além de ter relação com as tabelas de endereços e telefones. Ambas as relações são de 1:N (Um fornecedor tem vários endereços/telefones). A tabela de telefones tem os atributos: id, number, supplier_id. Já a tabela de endereços tem os atributos: id, city, street, neighborhood, number, supplier_id. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um fornecedor.</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
@@ -362,9 +366,8 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US07</th>
   </tr>
   <tr>
-    <td style="width:25%;padding:6px;"><strong>Título</strong>Geração de Relatórios</td>
-    <td style="padding:6px;">O sistema deverá permitir gerar relatórios de produtos, histórico de produtos,
-estoque, entrada, saída e despesas.</td>
+    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
+    <td style="padding:6px;">Geração de Relatórios</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -376,6 +379,11 @@ estoque, entrada, saída e despesas.</td>
       Como <em>proprietária da loja</em>, quero <em>gerar os relatórios dos produtos e das despesas</em>, para <em>ter controle sobre os valores de custo, estoque e histórico de de entradas e saídas</em>.
     </td>
   </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Descrição</strong></td>
+    <td style="padding:6px;">O sistema deverá permitir gerar relatórios de produtos, histórico de produtos,
+estoque, entrada, saída e despesas.</td>
+  </tr>
   <tr>
     <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
     <td style="padding:6px;">RF07</td>
