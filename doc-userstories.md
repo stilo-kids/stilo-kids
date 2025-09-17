@@ -16,7 +16,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 
 
 
-### User Story US02 - Manter Fornecedor
+### User Story US01 - Manter Fornecedor
 
 <table>
   <tr>
