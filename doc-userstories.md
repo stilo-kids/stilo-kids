@@ -16,15 +16,15 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 
 
 
-### User Story US01 - Manter Fornecedor
+### User Story US02 - Manter Fornecedor
 
 <table>
   <tr>
-    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US01</th>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US02</th>
   </tr>
   <tr>
-    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
-    <td style="padding:6px;">Manter Fornecedor.</td>
+    <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Fornecedor</td>
+    <td style="padding:6px;">O sistema de manter um cadastro de fornecedores. Um fornecedor tem os atirbutos: id e name, além de ter relação com as tabelas de endereços e telefones. Ambas as relações são de 1:N (Um fornecedor tem vários endereços/telefones). A tabela de telefones tem os atributos: id, number, supplier_id. Já a tabela de endereços tem os atributos: id, city, street, neighborhood, number, supplier_id. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um fornecedor.</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -34,12 +34,6 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <td style="padding:6px;"><strong>Story</strong></td>
     <td style="padding:6px;">
       Como <em>proprietária da loja</em>, quero <em>realizar as operações de manter um fornecedor</em>, para <em>ter um controle e histórico sobre os fornecedores da loja</em>.
-    </td>
-  </tr>
-  <tr>
-    <td style="padding: 6px;">Descrição</td>
-    <td style="padding: 6px;">
-      O sistema deve manter um cadastro de fornecedores. Um fornecedor tem os atirbutos: id e name, além de ter relação com as tabelas de endereços e telefones. Ambas as relações são de 1:N (Um fornecedor tem vários endereços/telefones). A tabela de telefones tem os atributos: id, number, supplier_id. Já a tabela de endereços tem os atributos: id, city, street, neighborhood, number, supplier_id. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um fornecedor.
     </td>
   </tr>
   <tr>
@@ -340,6 +334,90 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
         <li><strong>Analista:</strong> Pedro Vitor </li>
         <li><strong>Desenvolvedor:</strong> Elder </li>
         <li><strong>Revisor:</strong> Mosiah </li>
+        <li><strong>Testador:</strong> Felipe </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Protótipo</strong></td>
+    <td style="padding:6px;">
+    </td>
+  </tr>
+</table>
+
+### User Story US07 - Geração de Relatórios
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US07</th>
+  </tr>
+  <tr>
+    <td style="width:25%;padding:6px;"><strong>Título</strong>Geração de Relatórios</td>
+    <td style="padding:6px;">O sistema deverá permitir gerar relatórios de produtos, histórico de produtos,
+estoque, entrada, saída e despesas.</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Identificação</strong></td>
+    <td style="padding:6px;">RF07 - Geração de Relatórios</td>
+  </tr> 
+  <tr> 
+    <td style="padding:6px;"><strong>Story</strong></td>
+    <td style="padding:6px;">
+      Como <em>proprietária da loja</em>, quero <em>gerar os relatórios dos produtos e das despesas</em>, para <em>ter controle sobre os valores de custo, estoque e histórico de de entradas e saídas</em>.
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
+    <td style="padding:6px;">RF07</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>O sistema deve exibir mensagem de sucesso após geração correta.</li>
+        <li>O sistema deve validar campos obrigatórios e exibir mensagens de erro.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td style="padding:6px;"><strong>Testes de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>TA07.01 - Relatórios de produtos é exibido com sucesso.</li>
+        <li>TA07.02 - Campos início e fim de período são preenchidos corretamente e relatório de entradas é exibido com sucesso.</li>
+        <li>TA07.03 - Campos início e fim de período estão vazios ou são preenchidos de forma inválida exibindo mensagem de erro na consulta de entradas.</li>
+        <li>TA07.04 - Campos início e fim de período são preenchidos corretamente e relatório de saídas é exibido com sucesso.</li>
+        <li>TA07.05 - Campos início e fim de período estão vazios ou são preenchidos de forma inválida exibindo mensagem de erro na consulta de saídas.</li>
+        <li>TA07.06 - Campos início e fim de período são preenchidos corretamente e relatório de despesas é exibido com sucesso.</li>
+        <li>TA07.07 - Campos início e fim de período estão vazios ou são preenchidos de forma inválida exibindo mensagem de erro na consulta de despesas.</li>
+        <li>TA07.08 - Relatórios de histórico de produtos é exibido com sucesso.</li>
+        <li>TA07.09 - Relatórios de estoque é exibido com sucesso. </li>
+      </ul> 
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Estimativa</strong></td>
+    <td style="padding:6px;">8h</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tempo Real Gasto</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tamanho Funcional</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Prioridade</strong></td>
+    <td style="padding:6px;">Essencial</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Responsáveis</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li><strong>Analista:</strong> Mosiah </li>
+        <li><strong>Desenvolvedor:</strong> Pedro Vitor </li>
+        <li><strong>Revisor:</strong> Elder </li>
         <li><strong>Testador:</strong> Felipe </li>
       </ul>
     </td>
