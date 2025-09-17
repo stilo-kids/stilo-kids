@@ -16,15 +16,15 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 
 
 
-### User Story US01 - Manter Fornecedor
+### User Story US02 - Manter Fornecedor
 
 <table>
   <tr>
-    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US01</th>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US02</th>
   </tr>
   <tr>
-    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
-    <td style="padding:6px;">Manter Fornecedor</td>
+    <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Fornecedor</td>
+    <td style="padding:6px;">O sistema de manter um cadastro de fornecedores. Um fornecedor tem os atirbutos: id e name, além de ter relação com as tabelas de endereços e telefones. Ambas as relações são de 1:N (Um fornecedor tem vários endereços/telefones). A tabela de telefones tem os atributos: id, number, supplier_id. Já a tabela de endereços tem os atributos: id, city, street, neighborhood, number, supplier_id. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um fornecedor.</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -35,10 +35,6 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <td style="padding:6px;">
       Como <em>proprietária da loja</em>, quero <em>realizar as operações de manter um fornecedor</em>, para <em>ter um controle e histórico sobre os fornecedores da loja</em>.
     </td>
-  </tr>
-  <tr>
-    <td style="padding:6px;"><strong>Descrição</strong></td>
-    <td style="padding:6px;">O sistema de manter um cadastro de fornecedores. Um fornecedor tem os atirbutos: id e name, além de ter relação com as tabelas de endereços e telefones. Ambas as relações são de 1:N (Um fornecedor tem vários endereços/telefones). A tabela de telefones tem os atributos: id, number, supplier_id. Já a tabela de endereços tem os atributos: id, city, street, neighborhood, number, supplier_id. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um fornecedor.</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
@@ -271,6 +267,94 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
   </tr>
 </table>
 
+### User Story US05 - Manter Avaria 
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US05</th>
+  </tr>
+  <tr>
+    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
+    <td style="padding:6px;">Manter Avaria</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Identificação</strong></td>
+    <td style="padding:6px;">RF05 - Manter Avaria</td>
+  </tr> 
+  <tr> 
+    <td style="padding:6px;"><strong>Story</strong></td>
+    <td style="padding:6px;">
+      Como <em>proprietária da loja</em>, quero <em>realizar o cadastro e as operações de saída de avaria</em>, para <em>ter controle sobre as avarias da loja</em>.
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Descrição</strong></td>
+    <td style="padding:6px;">O sistema deverá realizar o cadastro e as operações de CRUD para a
+entidade “saída de avaria” de produto, que contém as informações: valor de custo,
+quantidade, informações da peça (nomes) e data de saída.</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
+    <td style="padding:6px;">RF02</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>O sistema deve exibir mensagem de sucesso após cadastro correto.</li>
+        <li>O sistema deve validar campos obrigatórios e exibir mensagens de erro.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td style="padding:6px;"><strong>Testes de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>TA05.01 - Cadastro bem sucedido com todos os dados válidos redireciona para uma mensagem de cadastro realizado com sucesso.</li>
+        <li>TA05.02 - Realizar o cadastro com algum campo inválido retorna uma mensagem de erro e não efetua o cadastro da saída de avaria.</li>
+        <li>TA05.03 - Edição bem sucedida com todos os dados válidos redireciona para uma mensagem de atualização feita com sucesso.</li>
+        <li>TA05.04 - Realizar a edição com algum campo inválido retorna uma mensagem de erro e não efetua a edição.</li>
+        <li>TA05.05 - Consultar a saída de avaria retornará todos os seus dados.</li>
+        <li>TA05.06 - Consultar a saída de avaria e não encontrar nenhuma retornará uma mensagem de saída não encontrada.</li>
+        <li>TA05.07 - Deletar uma saída de avaria retorna uma mensagem de saída deletada com sucesso.</li>
+        <li>TA05.08 - Deletar uma saída de avaria inexistente retorna uma mensagem de erro.</li>
+      </ul> 
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Estimativa</strong></td>
+    <td style="padding:6px;">4h</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tempo Real Gasto</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tamanho Funcional</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Prioridade</strong></td>
+    <td style="padding:6px;">Essencial</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Responsáveis</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li><strong>Analista:</strong> Elder </li>
+        <li><strong>Desenvolvedor:</strong> Mosiah </li>
+        <li><strong>Revisor:</strong> Felipe </li>
+        <li><strong>Testador:</strong> Pedro Vitor </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Protótipo</strong></td>
+    <td style="padding:6px;">
+    </td>
+  </tr>
+</table>
+
 ### User Story US06 - Manter Despesa
 
 <table>
@@ -366,8 +450,9 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US07</th>
   </tr>
   <tr>
-    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
-    <td style="padding:6px;">Geração de Relatórios</td>
+    <td style="width:25%;padding:6px;"><strong>Título</strong>Geração de Relatórios</td>
+    <td style="padding:6px;">O sistema deverá permitir gerar relatórios de produtos, histórico de produtos,
+estoque, entrada, saída e despesas.</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -379,11 +464,6 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
       Como <em>proprietária da loja</em>, quero <em>gerar os relatórios dos produtos e das despesas</em>, para <em>ter controle sobre os valores de custo, estoque e histórico de de entradas e saídas</em>.
     </td>
   </tr> 
-  <tr>
-    <td style="padding:6px;"><strong>Descrição</strong></td>
-    <td style="padding:6px;">O sistema deverá permitir gerar relatórios de produtos, histórico de produtos,
-estoque, entrada, saída e despesas.</td>
-  </tr>
   <tr>
     <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
     <td style="padding:6px;">RF07</td>
