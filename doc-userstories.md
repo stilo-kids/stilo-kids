@@ -104,6 +104,96 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
   </tr>
 </table>
 
+### User Story US01 - Manter Produto
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US02</th>
+  </tr>
+  <tr>
+    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
+    <td style="padding:6px;">Manter Produto</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Identificação</strong></td>
+    <td style="padding:6px;">US02 - Manter Produto</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Story</strong></td>
+    <td style="padding:6px;">
+      Como <em>proprietária da loja</em>, quero <em>realizar as operações de manter um produto</em>, para <em>ter um controle e histórico sobre os produtos da loja</em>.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Descrição</strong></td>
+    <td style="padding:6px;">O sistema de manter um cadastro de produtos. Um produto tem os atirbutos: id, nome, tamanho (1 a 16 anos),
+preço, cor, valor de custo, marca, tipo da peça (Camisa/Vestido/Blusa/Bermuda),
+fornecedor, descrição e data de aquisição. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um produto.</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>O sistema deve exibir mensagem de sucesso após cadastro correto.</li>
+        <li>O sistema deve validar campos obrigatórios e exibir mensagens de erro.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Testes de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>TA02.01 Cadastro bem sucedido com todos os dados válidos redireciona para uma mensagem de cadastro feito com sucesso</li>
+        <li>TA02.2	RF02	Realizar o cadastro com algum campo inválido (vazio, valor não aceito, etc) retorna uma mensagem de erro e não efetua o cadastro</li>
+        <li>TA02.03 Edição bem sucedida com todos os dados válidos redireciona para uma mensagem de atualização feita com sucesso</li>
+        <li>TA02.04	Realizar a edição com algum campo inválido (vazio, valor não aceito, etc) retorna uma mensagem de erro e não efetua a edição</li>
+        <li>TA02.05	Listar os produtos retornará a lista de todos os produtos cadastrados no sistema</li>
+        <li>TA02.06	Listar os produtos e se não encontrar nenhum, será retornada uma mensagem de produtos não encontrados</li>
+        <li>TA02.07	Buscar um produto retorna os dados desse produto em específico e seu histórico</li>
+        <li>TA02.08	Buscar um produto inexistente retorna uma mensagem de produto não encontrado</li>
+        <li>TA02.09	Deletar um produto retorna uma mensagem de fornecedor deletado com sucesso</li>
+        <li>TA02.10	Deletar um produto inexistente ou que já está associado com uma transação (entrada/saída) retorna uma mensagem de erro</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Estimativa</strong></td>
+    <td style="padding:6px;">6h</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tempo Real Gasto</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tamanho Funcional</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Prioridade</strong></td>
+    <td style="padding:6px;">Essencial</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Responsáveis</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li><strong>Analista:</strong> Felipe</li>
+        <li><strong>Desenvolvedor:</strong> Mosiah</li>
+        <li><strong>Revisor:</strong> Pedro Vitor</li>
+        <li><strong>Testador:</strong> Elder</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Protótipo</strong></td>
+    <td style="padding:6px;">
+    </td>
+  </tr>
+</table>
+
 ### User Story US03 - Manter Entrada de Produto
 
 <table>
