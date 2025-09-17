@@ -113,8 +113,8 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US03</th>
   </tr>
   <tr>
-    <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Entrada de Produto</td>
-    <td style="padding:6px;"></td>
+    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
+    <td style="padding:6px;">Manter Entrada de Produto</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -194,8 +194,8 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US04</th>
   </tr>
   <tr>
-    <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Venda de Produto</td>
-    <td style="padding:6px;">O sistema deve manter um cadastro de vendas. Uma venda tem os atirbutos: id, preço, quantidade, data e informações do produto, sendo possível obter estes através da relação com a tabela de produto. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um venda.</td>
+    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
+    <td style="padding:6px;">Manter Venda de Produto</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -208,8 +208,12 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     </td>
   </tr> 
   <tr>
-    <td style="padding:6px;"><strong>Requisitos Relacionados</strong>RF02</td>
-    <td style="padding:6px;"></td>
+    <td style="padding:6px;"><strong>Descrição</strong></td>
+    <td style="padding:6px;">O sistema deve manter um cadastro de vendas. Uma venda tem os atirbutos: id, preço, quantidade, data e informações do produto, sendo possível obter estes através da relação com a tabela de produto. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um venda.</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
+    <td style="padding:6px;">RF02</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
@@ -276,8 +280,8 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US06</th>
   </tr>
   <tr>
-    <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Despesa</td>
-    <td style="padding:6px;">O sistema deve manter um cadastro de despesas. Uma despesa tem os atirbutos: nome, descrição, valor, data e tipo da despesa. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um despesa.</td>
+    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
+    <td style="padding:6px;">Manter Despesa.</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -290,8 +294,14 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
     </td>
   </tr> 
   <tr>
-    <td style="padding:6px;"><strong>Requisitos Relacionados</strong>RF06</td>
-    <td style="padding:6px;"></td>
+    <td style="padding:6px;"><strong>Descrição</strong></td>
+    <td style="padding:6px;">
+      O sistema deve manter um cadastro de despesas. Uma despesa tem os atirbutos: nome, descrição, valor, data e tipo da despesa. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um despesa.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
+    <td style="padding:6px;">RF06</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
