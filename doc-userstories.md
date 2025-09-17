@@ -438,3 +438,87 @@ estoque, entrada, saída e despesas.</td>
     </td>
   </tr>
 </table>
+
+
+### User Story US08 - Geração de relatórios com gráficos
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US08</th>
+  </tr>
+  <tr>
+    <td style="width:25%;padding:6px;"><strong>Título</strong></td>
+    <td style="padding:6px;">Geração de relatórios com gráficos.</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Identificação</strong></td>
+    <td style="padding:6px;">RF08 - Geração de relatórios com gráficos</td>
+  </tr> 
+  <tr> 
+    <td style="padding:6px;"><strong>Story</strong></td>
+    <td style="padding:6px;">
+      Como <em>proprietária da loja</em>, quero <em>conseguir visualizar em um relatório, de forma gráfica, os lucros e prejuízos</em>, para <em>ter um melhor embasamento nas tomadas de decisões para a empresa</em>.
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Descrição</strong></td>
+    <td style="padding:6px;">
+      O sistema deverá permitir gerar relatórios que identifiquem os prejuízos ou lucros da empresa de forma visual em um período de tempo, gerando gráficos para consulta.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
+    <td style="padding:6px;">RF06</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>Após definido um intervalo de tempo, o sistema irá gerar um relatório.</li>
+        <li>O sistema deve validar o intervalo de tempo que o usuário inserir.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td style="padding:6px;"><strong>Testes de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>TA08.01 - Gerar o relatório com um intervalo de tempo válido irá gerar o relatório com os gráficos correspondentes ao período selecionado.</li>
+        <li>TA08.02 - Escolher um perído de tempo inválido (além da data presente) irá exibir uma mensagem de erro.</li>
+        <li>TA08.03 - Escolher um período de tempo que não tenha movimentações/despesas para gerar os gráficos irá retornar uma mensagem de erro.</li>
+      </ul> 
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Estimativa</strong></td>
+    <td style="padding:6px;">6h</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tempo Real Gasto</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tamanho Funcional</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Prioridade</strong></td>
+    <td style="padding:6px;">Importante</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Responsáveis</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li><strong>Analista:</strong> Pedro Vitor </li>
+        <li><strong>Desenvolvedor:</strong> Elder </li>
+        <li><strong>Revisor:</strong> Mosiah </li>
+        <li><strong>Testador:</strong> Felipe </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Protótipo</strong></td>
+    <td style="padding:6px;">
+    </td>
+  </tr>
+</table>
