@@ -189,7 +189,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
   </tr>
   <tr>
     <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Venda de Produto</td>
-    <td style="padding:6px;"></td>
+    <td style="padding:6px;">O sistema deve manter um cadastro de vendas. Uma venda tem os atirbutos: id, preço, quantidade, data e informações do produto, sendo possível obter estes através da relação com a tabela de produto. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um venda.</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Identificação</strong></td>
@@ -253,6 +253,88 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
         <li><strong>Desenvolvedor:</strong> Felipe </li>
         <li><strong>Revisor:</strong> Pedro Vitor </li>
         <li><strong>Testador:</strong> Elder </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Protótipo</strong></td>
+    <td style="padding:6px;">
+    </td>
+  </tr>
+</table>
+
+### User Story US06 - Manter Despesa
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:left;background:#e0e0e0;padding:8px;">📌 User Story - US06</th>
+  </tr>
+  <tr>
+    <td style="width:25%;padding:6px;"><strong>Título</strong>Manter Despesa</td>
+    <td style="padding:6px;">O sistema deve manter um cadastro de despesas. Uma despesa tem os atirbutos: nome, descrição, valor, data e tipo da despesa. O usuário poderá cadastrar, editar, excluir, listar ou detalhar um despesa.</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Identificação</strong></td>
+    <td style="padding:6px;">RF06 - Manter Despesa</td>
+  </tr> 
+  <tr> 
+    <td style="padding:6px;"><strong>Story</strong></td>
+    <td style="padding:6px;">
+      Como <em>proprietária da loja</em>, quero <em>realizar o cadastro e as operações de despesa</em>, para <em>ter controle sobre os valores de custo e histórico de despesas</em>.
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong>RF06</td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>O sistema deve exibir mensagem de sucesso após cadastro correto.</li>
+        <li>O sistema deve validar campos obrigatórios e exibir mensagens de erro.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td style="padding:6px;"><strong>Testes de Aceitação</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li>TA06.01 - Cadastro bem sucedido com todos os dados válidos redireciona para uma mensagem de cadastro realizado com sucesso.</li>
+        <li>TA06.02 - Realizar o cadastro com algum campo inválido retorna uma mensagem de erro e não efetua o cadastro da despesa.</li>
+        <li>TA06.03 - Edição bem sucedida com todos os dados válidos redireciona para uma mensagem de atualização feita com sucesso.</li>
+        <li>TA06.04 - Realizar a edição com algum campo inválido retorna uma mensagem de erro e não efetua a edição.</li>
+        <li>TA06.05 - Consultar a despesa retornará todos os seus dados.</li>
+        <li>TA06.06 - Consultar a despesa e não encontrar nenhuma retornará uma mensagem de despesa não encontrada.</li>
+        <li>TA06.07 - Deletar uma despesa retorna uma mensagem de despesa deletada com sucesso.</li>
+        <li>TA06.08 - Deletar uma despesa inexistente retorna uma mensagem de erro</li>
+      </ul> 
+    </td>
+  </tr> 
+  <tr>
+    <td style="padding:6px;"><strong>Estimativa</strong></td>
+    <td style="padding:6px;">6h</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tempo Real Gasto</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Tamanho Funcional</strong></td>
+    <td style="padding:6px;"></td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Prioridade</strong></td>
+    <td style="padding:6px;">Importante</td>
+  </tr>
+  <tr>
+    <td style="padding:6px;"><strong>Responsáveis</strong></td>
+    <td style="padding:6px;">
+      <ul>
+        <li><strong>Analista:</strong> Pedro Vitor </li>
+        <li><strong>Desenvolvedor:</strong> Elder </li>
+        <li><strong>Revisor:</strong> Mosiah </li>
+        <li><strong>Testador:</strong> Felipe </li>
       </ul>
     </td>
   </tr>
