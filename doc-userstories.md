@@ -211,8 +211,8 @@ fornecedor, descrição e data de aquisição. O usuário poderá cadastrar, edi
     </td>
   </tr> 
   <tr>
-    <td style="padding:6px;"><strong>Requisitos Relacionados</strong>RF02</td>
-    <td style="padding:6px;"></td>
+    <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
+    <td style="padding:6px;">RF02</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
@@ -385,7 +385,7 @@ quantidade, informações da peça (nomes) e data de saída.</td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Requisitos Relacionados</strong></td>
-    <td style="padding:6px;">RF02</td>
+    <td style="padding:6px;"></td>
   </tr>
   <tr>
     <td style="padding:6px;"><strong>Critérios de Aceitação</strong></td>
